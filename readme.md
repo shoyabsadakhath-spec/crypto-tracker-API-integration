@@ -41,7 +41,8 @@ A production-ready cryptocurrency market tracking web application built with Pyt
 
 1. **Clone or extract the project**:
 ```bash
-cd crypto_market_tracker 
-python app.py 
+cd crypto_market_tracker enter
+pip install -r requirements.txt enter
+python app.py enter 
 server will come in terminal
 then ctrl+enter the web app automatically open in your browser 
