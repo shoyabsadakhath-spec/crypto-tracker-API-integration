@@ -1,0 +1,71 @@
+/* Custom styles beyond Bootstrap */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand i {
+    margin-right: 10px;
+}
+
+.positive-change {
+    color: #00a86b;
+    font-weight: 600;
+}
+
+.negative-change {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+.coin-image {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.filter-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stats-card {
+    transition: transform 0.2s;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.table-container {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.loading-spinner {
+    padding: 50px;
+    background: white;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-top: 1px solid #dee2e6;
+}
